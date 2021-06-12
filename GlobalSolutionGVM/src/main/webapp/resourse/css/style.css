@@ -4,24 +4,30 @@ body{
 	background: #f5f5f5;
 }
 
-.form-card{
-	width: 25em;
-	margin: 10px auto;
-}
-
 .setup-list-item {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
 
-.setup-list-detail {
-    flex: 1 1 0;
+.form-card{
+	width: 25em;
+	margin: 10px auto;
 }
 
 .setup-name {
     font-size: 1.5rem;
     font-weight: 750;
+}
+
+.setup-list-detail {
+    flex: 1 1 0;
+}
+
+.setup-list-item img {
+    width: 160px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    margin-right: 2rem;
 }
 
 .setup-description {
@@ -40,11 +46,6 @@ body{
     align-self: flex-end;
 }
 
-.setup-list-item img {
-    width: 160px;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
-    margin-right: 2rem;
-}
 
 
 
